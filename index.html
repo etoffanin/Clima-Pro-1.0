@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsão do Tempo Pro</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="caixa-maior">
+    <div class="topo">
+        <input 
+            class="input-cidade" 
+            placeholder="Digite o nome da sua cidade"
+        >
+        <button onclick="cliqueiNoBotao()">
+            <i class="fa-solid fa-magnifying-glass"></i> 
+        </button>
+    </div>
+
+    <div class="caixa-media">
+        <h2 class="cidade">Tempo em...</h2>
+        <p class="temp">--°C</p>
+
+        <div class="caixa-menor">
+            <img class="img-previsao" src="" alt="Ícone do clima">
+            <p class="texto-previsao">---</p>
+        </div>
+
+        <p class="umidade">Umidade: --%</p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
